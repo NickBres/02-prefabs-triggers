@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7837289214103786376}
   - component: {fileID: 7837289214103786377}
+  - component: {fileID: 4750024574986374613}
   - component: {fileID: 7837289214103786378}
   - component: {fileID: 3928880668046269437}
   - component: {fileID: 4202652755164059409}
-  - component: {fileID: 4750024574986374613}
   m_Layer: 0
   m_Name: EnemySaucerWithCollider
   m_TagString: Enemy
@@ -91,6 +91,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4750024574986374613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7837289214103786379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 035700ae7186a4e12a77cd629dcec59e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: 5
 --- !u!114 &7837289214103786378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,16 +241,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &4750024574986374613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7837289214103786379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 035700ae7186a4e12a77cd629dcec59e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  offset: 1

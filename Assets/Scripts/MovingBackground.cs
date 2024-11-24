@@ -4,7 +4,7 @@ public class VerticalMovingBackground : MonoBehaviour
 {
     [SerializeField] private float scrollSpeed = 2f; // Speed of vertical scrolling (set in the Inspector)
     private float height; // Height of the background image
-    private Vector2 startPosition; // Original position of the background
+    private Vector3 startPosition; // Original position of the background
 
     void Start()
     {
@@ -24,7 +24,7 @@ public class VerticalMovingBackground : MonoBehaviour
         if (transform.position.y <= startPosition.y - height)
         {
             // Reset position to loop the background
-            transform.position = new Vector2(transform.position.x, startPosition.y);
+            transform.position = new Vector3(transform.position.x, startPosition.y, startPosition.z);
         }
     }
 }
